@@ -1,0 +1,14 @@
+/* CSS untuk halaman artikel */
+.Article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mengatur tinggi halaman menjadi 100% tinggi viewport */
+  }
+  
+  .Article h1 {
+    font-size: 2rem; /* Ukuran font */
+    text-align: center; /* Pusatkan teks */
+    padding-bottom: 100px; /* Menambahkan jarak bawah */
+  }
+  

@@ -1,0 +1,388 @@
+.App {
+  min-height: 60vh;
+  padding: 82px 100px;
+  font-family: Poppins, sans-serif;
+}
+
+.Loyaltysection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.Loyaltysection .iconCustom {
+  height: 80px;
+}
+
+.Loyaltysection .titleCustom {
+  font-family: 'Outfit', sans-serif;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.Loyaltysection .titleCustom span {
+  color: #B8901A;
+}
+
+.rewardContent {
+  width: 1200px;
+  text-align: center;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.rewardText {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.rewardText .highlight {
+  color: #B8901A;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 20px 0;
+  height: 1px;
+  background-color: white;
+  width: 100%;
+}
+
+.shopButton {
+  background-color: #B8901A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.earn-points-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.point-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  text-align: center;
+}
+
+.point-item-icon {
+  color: #B8901A;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.point-item-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  /* Extra bold */
+  margin-bottom: 5px;
+}
+
+.point-item-points {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  /* Light */
+  color: #666;
+}
+
+
+.shopButton:hover {
+  background-color: #a77e17;
+}
+
+.scrollContainer {
+  max-height: 80vh;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  margin-top: -20px;
+}
+
+.sectionContainer {
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+.sectionTitle {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.sectionTitle::before,
+.sectionTitle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 350px;
+  height: 1px;
+  background-color: #E3E3E3;
+}
+
+.sectionTitle::before {
+  left: -350px;
+}
+
+.sectionTitle::after {
+  right: -350px;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.gridItem {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridItem img {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.reward-form-container {
+  flex: 1;
+  width: 565px;
+  height: 535px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin-left: 300px;
+}
+
+.rewardForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 465px;
+  margin: 0 auto;
+}
+
+.rewardForm .inputRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.rewardForm input,
+.rewardForm textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 15px 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.rewardForm input.halfWidth {
+  width: calc(50% - 10px);
+}
+
+.rewardForm textarea {
+  height: 100px;
+}
+
+.rewardForm input:focus,
+.rewardForm textarea:focus {
+  border-color: #a77e17;
+  outline: none;
+  /* Remove default outline */
+}
+
+.submitButton {
+  background-color: #B8901A;
+  color: white;
+  border: none;
+  padding: 10px 140px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 24px;
+  margin-top: 10px;
+}
+
+.submitButton:hover {
+  background-color: #a77e17;
+}
+
+/* BAGIAN CONTACT US */
+.custom-contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.custom-submit-button {
+  background-color: #bf9b30;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 15px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 30px;
+  width: 30%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #dfcd97;
+  color: #bf9b30;
+  font-weight: 600;
+}
+
+.contact-container {
+  flex: 1;
+  width: 578px;
+  height: 420px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  margin-left: 300px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.custom-contact-form input,
+.custom-contact-form textarea {
+  background-color: #f7fafc;
+}
+
+.custom-contact-form label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.custom-contact-form input {
+  margin-bottom: 20px;
+}
+
+.custom-contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.custom-highlight {
+  color: #B8901A;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-wrap-contactInfo {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.text-contactInfo {
+  color: black;
+  font-family: "Outfit", sans-serif;
+}
+
+.tiers-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.tier-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.tier-item.tier-bronze {
+  border-top: 5px solid #cd7f32;
+}
+
+.tier-item.tier-silver {
+  border-top: 5px solid #c0c0c0;
+}
+
+.tier-item.tier-gold {
+  border-top: 5px solid #FFD700;
+}
+
+.tier-header {
+  margin-bottom: 20px;
+}
+
+.tier-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.tier-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800; /* Extra bold */
+  margin: 10px 0;
+}
+
+.tier-points {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; /* Light */
+  color: #666;
+}
+
+.tier-benefits {
+  text-align: left;
+}
+
+.benefit-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.benefit {
+  margin: 5px 0;
+}

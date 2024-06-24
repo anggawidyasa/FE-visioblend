@@ -1,0 +1,522 @@
+/* BAGIAN SERVICES 3 */
+.Service3Title {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Service3BoxContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: stretch;
+}
+
+.Service3BoxServices {
+  width: 30%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Service3Detail {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 2px solid #b8901a;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Service3BoxContent {
+  margin: 20px 0 30px 0;
+  min-height: 100px;
+  text-align: left;
+}
+
+.Service3BoxContent ul {
+  padding-left: 0;
+}
+
+.Service3BoxContent .uniq-li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.Service3Price {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.Service3Price .Service3YellowText {
+  color: #b8901a;
+  font-size: 23px;
+}
+
+.Service3Action {
+  bottom: 20px;
+  text-align: center;
+}
+
+.Service3CustomButton {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.Service3SeeProduct {
+  color: #b8901a;
+  border-color: #b8901a;
+  font-weight: 400;
+  margin-right: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Service3SeeProduct:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.Service3BookNow {
+  color: #b8901a;
+  border-color: #b8901a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Service3BookNow:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+}
+
+.Service3UserProfile {
+  display: flex;
+  align-items: center;
+}
+
+.Service3UserPp {
+  margin-right: 10px;
+}
+
+.Service3NameUser {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 10px;
+}
+
+.Service3ReviewAndUlasan {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Service3ReviewTitle {
+  margin-bottom: 20px;
+}
+
+.Service3ReviewsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Service3Review {
+  width: 30%;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #b8901a;
+  box-shadow: 0 2px 6px #948d7a;
+}
+
+.Service3ReviewUniq {
+  width: 30%;
+  margin-top: -10%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #b8901a;
+  box-shadow: 0 2px 6px #948d7a;
+}
+
+.Service3ReviewHeader {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.Service3ReviewerPhoto {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Service3Rating {
+  font-size: 24px;
+}
+
+.Service3Divider {
+  width: 100%;
+  height: 1px;
+  background-color: #b8901a;
+  margin: 20px 0;
+}
+
+.Service3Ulasan {
+  text-align: left;
+}
+
+/* BAGIAN SERVICES 4 */
+.Service4Title {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Service4BoxContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: stretch;
+}
+
+.Service4BoxServices {
+  width: 30%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Service4Detail {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 2px solid #b8901a;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Service4BoxContent {
+  margin: 20px 0 30px 0;
+  min-height: 100px;
+  text-align: left;
+}
+
+.Service4BoxContent ul {
+  padding-left: 0;
+}
+
+.Service4BoxContent .uniq-li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.Service4Price {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.Service4Price .Service4YellowText {
+  color: #b8901a;
+  font-size: 23px;
+}
+
+.Service4Action {
+  bottom: 20px;
+  text-align: center;
+}
+
+.Service4CustomButton {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.Service4SeeProduct {
+  color: #b8901a;
+  border-color: #b8901a;
+  font-weight: 400;
+  margin-right: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Service4SeeProduct:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.Service4BookNow {
+  color: #b8901a;
+  border-color: #b8901a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Service4BookNow:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+}
+
+.Service4UserProfile {
+  display: flex;
+  align-items: center;
+}
+
+.Service4UserPp {
+  margin-right: 10px;
+}
+
+.Service4NameUser {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 10px;
+}
+
+.Service4ReviewAndUlasan {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Service4ReviewTitle {
+  margin-bottom: 20px;
+}
+
+.Service4ReviewsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Service4Review {
+  width: 30%;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #b8901a;
+  box-shadow: 0 2px 6px #948d7a;
+}
+
+.Service4ReviewUniq {
+  width: 30%;
+  margin-top: -10%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #b8901a;
+  box-shadow: 0 2px 6px #948d7a;
+}
+
+.Service4Rating {
+  font-size: 24px;
+}
+
+.Service4Divider {
+  width: 100%;
+  height: 1px;
+  background-color: #b8901a;
+  margin: 20px 0;
+}
+
+.Service4Ulasan {
+  text-align: left;
+}
+
+/* BAGIAN SERVICE 5 */
+.Service5Title {
+  font-family: "Outfit", sans-serif;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.Service5BoxContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  align-items: stretch;
+}
+
+.Service5BoxServices {
+  width: 30%;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Service5Detail {
+  position: relative;
+  flex: 1;
+  width: 100%;
+  padding: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  border: 2px solid #b8901a;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Service5BoxContent {
+  margin: 20px 0 30px 0;
+  min-height: 100px;
+  text-align: left;
+}
+
+.Service5BoxContent ul {
+  padding-left: 0;
+}
+
+.Service5BoxContent .uniq-li {
+  list-style: none;
+  font-weight: bold;
+}
+
+.Service5Price {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-weight: bold;
+}
+
+.Service5Price .Service5YellowText {
+  color: #b8901a;
+  font-size: 23px;
+}
+
+.Service5Action {
+  bottom: 20px;
+  text-align: center;
+}
+
+.Service5CustomButton {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.Service5SeeProduct {
+  color: #b8901a;
+  border-color: #b8901a;
+  font-weight: 400;
+  margin-right: 30px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Service5SeeProduct:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.Service5BookNow {
+  color: #b8901a;
+  border-color: #b8901a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.Service5BookNow:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+}
+
+.Service5UserProfile {
+  display: flex;
+  align-items: center;
+}
+
+.Service5UserPp {
+  margin-right: 10px;
+}
+
+.Service5NameUser {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  line-height: 10px;
+}
+
+.Service5ReviewAndUlasan {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.Service5ReviewTitle {
+  margin-bottom: 20px;
+}
+
+.Service5ReviewsContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.Service5Review {
+  width: 30%;
+  margin-bottom: 60px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #b8901a;
+  box-shadow: 0 2px 6px #948d7a;
+}
+
+.Service5ReviewUniq {
+  width: 30%;
+  margin-top: -10%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  border: 2px solid #b8901a;
+  box-shadow: 0 2px 6px #948d7a;
+}
+
+.Service5Rating {
+  font-size: 24px;
+}
+
+.Service5Divider {
+  width: 100%;
+  height: 1px;
+  background-color: #b8901a;
+  margin: 20px 0;
+}
+
+.Service5Ulasan {
+  text-align: left;
+}

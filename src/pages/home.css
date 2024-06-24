@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+.section {
+  height: 60px;
+  background-color: #b8901a;
+  box-shadow: 0px 6px 5px 1px rgba(251, 228, 157, 0.5);
+}
+
+/*BAGIAN MOST NEEDED SERVICES */
+.box-home {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 300px;
+  height: 380px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s cubic-bezier(0.15, 0.75, 0.5, 1.25);
+}
+
+.box-home {
+  cursor: pointer;
+}
+.box-home:hover {
+  transform: translateY(-5px);
+}
+
+.box-home-link {
+  text-decoration: none;
+  color: black;
+}
+
+.box-home-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  padding: 5px;
+  width: 50%;
+  background-color: #b8901a;
+  border-radius: 5px;
+  color: #fff;
+}
+
+/* BAGIAN LAYANAN PEMESANAN */
+.custom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #b8901a;
+  color: #fff;
+}
+
+.custom-step {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  gap: 40px;
+}
+
+.custom-icon {
+  margin-right: 5px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.custom-phoneIcon,
+.custom-commentsIcon,
+.custom-tasksIcon,
+.custom-boxIcon {
+  display: inline-block;
+  box-sizing: content-box;
+  border: 2px solid #fff;
+  border-radius: 30%;
+  padding: 10px;
+}
+
+/* BAGIAN ABOUT US */
+.aboutSectionCustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px 100px;
+  font-family: Poppins, sans-serif;
+}
+
+.servicesCustom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.serviceCardCustom {
+  border: 2px solid #b8901a;
+  border-radius: 40px;
+  padding: 50px;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceTitleCustom {
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+.service-text {
+  font-size: 15px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* BAGIAN PARTNERS & TEAM */
+.partner-box {
+  width: 200px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  border: 1px solid #b8901a;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #b8901a;
+}
+
+/* BAGIAN CONTACT US */
+.custom-contact-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+.custom-submit-button {
+  background-color: #bf9b30;
+  color: white;
+  font-weight: 600;
+  border: none;
+  padding: 15px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 30px;
+  width: 30%;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-submit-button:hover {
+  background-color: #dfcd97;
+  color: #bf9b30;
+  font-weight: 600;
+}
+
+.custom-contact-info {
+  flex: 1;
+  width: 500px;
+  height: 470px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  padding: 50px;
+}
+
+.custom-contact-form input,
+.custom-contact-form textarea {
+  background-color: #f7fafc;
+}
+
+.custom-contact-form label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.custom-contact-form input {
+  margin-bottom: 20px;
+}
+
+.custom-contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+.custom-highlight {
+  color: black;
+  margin-top: 50px;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-wrap-contactInfo {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.text-contactInfo {
+  color: black;
+  font-family: "Outfit", sans-serif;
+}
+
+/* BAGIAN PORTFOLIO */
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Judul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Our Portfolio */
+.servis-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.servis-item {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.servis-title {
+  margin: 0 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.servis-stats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.stat-number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #bf9b30;
+}
+
+.stat-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* End Our Portfolio */
+
+.nvbar-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  height: 60px;
+}
+
+.nvbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+.nvbar-left {
+  flex: 1;
+}
+
+.nvbar-right {
+  flex: 3;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 200px;
+}
+
+.photo-column {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  border-radius: 8px;
+}
+
+.photo:hover img {
+  transform: scale(1.05);
+}
+
+.photo-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.photo-modal img {
+  max-width: 80%;
+  max-height: 80vh;
+}
+
+.close-modal {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}

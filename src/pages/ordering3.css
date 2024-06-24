@@ -1,0 +1,163 @@
+
+.sel {
+  border: 2px solid #BF9B30;
+  background-color: #F5F5F5;
+  border-radius: 8px;
+}
+
+.cont {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.ord-box-cont {
+  padding-bottom: 10px;
+  width: 60%;
+  text-align: left;
+}
+
+.ord-line {
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+.ord-content {
+  padding-left: 10px;
+}
+
+.ord-content h2 {
+  text-align: left;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.ord-content p {
+  text-align: left;
+  font-size: 15px;
+}
+
+.sub {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.ttl {
+  margin-top: 100px;
+}
+
+.ord-app-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.ord-box-cont {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ord-back-btn {
+  margin-top: -40px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #BF9B30;
+  background-color: #fff;
+  border: 2px solid #BF9B30 !important; 
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 80%;
+  margin-bottom: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ord-back-btn:hover {
+  color: white;
+  background-color: #b8901a;
+  font-weight: bold;
+}
+
+.ord-next-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #BF9B30;
+  border: none;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 80%;
+}
+
+.ord-svcs-box {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.ord-det-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.ord-det {
+  flex-basis: calc(50% - 20px);
+  margin-bottom: 20px;
+  cursor: pointer; 
+}
+
+.ord-mini-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+              0 4px 8px rgba(0, 0, 0, 0.1),
+              0 8px 16px rgba(0, 0, 0, 0.1),
+              0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.bul-point {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #c1bdaf;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+}
+
+.bul-inner {
+  width: 13px;
+  height: 13px;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.bul-point.sel .bul-inner {
+  background-color: #BF9B30;
+  border-color: #BF9B30;
+  width: 18px;
+  height: 18px;
+}
+
+.ord-lbl {
+  margin-left: 25px;
+  font-size: 16px;
+  margin-bottom: 7px;
+  padding-top: 7px;
+}

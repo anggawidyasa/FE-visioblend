@@ -1,0 +1,102 @@
+.ord-sub {
+  font-size: 20px;
+  padding-top: 10px;
+  margin-left: 90px;
+  text-align: center; 
+}
+
+.ord-ttl {
+  margin-top: 100px;
+  text-align: center; 
+}
+
+h2.txt,
+p {
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: #1E1E1E;
+}
+
+.box-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.box-svcs {
+  width: 50%;
+  height: 400px;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 8px 24px;
+  margin: 20px;
+  position: relative;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(173, 151, 151, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.step-ind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #f3f3f3;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.step-circ {
+  background-color: #BF9B30;
+  color: white;
+  padding: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999em;
+}
+
+.step-conn {
+  flex: 1;
+  border-radius: 999em;
+  border: 2px solid #BF9B30;
+}
+
+.mat-icons {
+  vertical-align: middle;
+  font-size: 100px !important;
+  color: #BF9B30;
+  padding: 10px;
+}
+
+.box-mini {
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  width: 150px;
+  background-color: #BF9B30;
+  color: #FFFFFF;
+  height: 50px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+}
+
+.det {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+.det-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
