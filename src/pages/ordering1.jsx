@@ -4,8 +4,12 @@ import { VscAccount } from "react-icons/vsc";
 import { FaMobileAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaBuilding } from "react-icons/fa";
-import { NavLink } from 'react-router-dom';
 import { Stepper, Button, Group } from '@mantine/core';
+import { PiBuildingsFill } from "react-icons/pi";
+import { MdOutlineOndemandVideo } from "react-icons/md";
+import { BiParty } from "react-icons/bi";
+import { PiBicycle } from "react-icons/pi";
+import { FaCheck } from "react-icons/fa";
 
 const Ordering1 = () => {
   const [formData, setFormData] = useState({
@@ -46,6 +50,22 @@ const Ordering1 = () => {
   const [active, setActive] = useState(1);
   const nextStep = () => setActive((current) => (current < 3 ? current + 1 : current));
   const prevStep = () => setActive((current) => (current > 0 ? current - 1 : current));
+
+  const [selectedService, setSelectedService] = useState('');
+
+  const handleServiceClick = (service) => {
+    setSelectedService(service);
+  };
+
+  const [selSvc, setSelSvc] = useState('');
+
+  const handleSvcClick = (svc) => {
+    setSelSvc(svc === selSvc ? '' : svc);
+  };
+
+  const SubmissionSuccessMessage = () => {
+  };
+
   return (
     <div className="customer-container">
       <h1>Become a Customer</h1>
@@ -54,17 +74,9 @@ const Ordering1 = () => {
       <div className="customer-app">
         <div className="customer-box-container">
           <div className="customer-box-services">
-            {/* <div className="step-indicator">
-              {[1, 2, 3, 4].map((num, index) => (
-                <React.Fragment key={num}>
-                  <div className="step-circle">{num}</div>
-                  {index < 3 && <div className="step-connector"></div>}
-                </React.Fragment>
-              ))}
-            </div> */}
                 <>
       <Stepper active={active} color="#B8901A" onStepClick={setActive}>
-        <Stepper.Step label="First step" description="Create an account">
+        <Stepper.Step label="First step" description="">
         <div className="customer-detail">
               <div className="customer-box-content">
                 <div className="customer-line"></div>
@@ -132,15 +144,95 @@ const Ordering1 = () => {
               </div>
             </div>
         </Stepper.Step>
-        <Stepper.Step label="Second step" description="Verify email">
-          Step 2 content: Verify email
+        <Stepper.Step label="Second step" description="">
+        <div className="ordering-detail">
+              <div className="ordering-box-content">
+                <div className="ordering-line"></div>
+                <h2>Our Services</h2>
+                <p>Please select which service you are interested in.</p>
+              </div>
+            </div>
+            <div className="ordering-detail-container">
+              <div 
+                className={`ordering-detail ${selectedService === 'Design Marketing & Architect' ? 'selected' : ''}`}
+                onClick={() => handleServiceClick('Design Marketing & Architect')}
+              >
+                <div className="ordering-mini-box">
+                  <div className="icon-circle">
+                    <PiBuildingsFill className="ordering-icon" />
+                  </div>
+                  <h6 className="ordering-label">Design Marketing & Architect</h6>
+                </div>
+              </div>
+              <div 
+                className={`ordering-detail ${selectedService === 'Ceremonial Photo & Video' ? 'selected' : ''}`}
+                onClick={() => handleServiceClick('Ceremonial Photo & Video')}
+              >
+                <div className="ordering-mini-box">
+                  <div className="icon-circle">
+                    <MdOutlineOndemandVideo className="ordering-icon" />
+                  </div>
+                  <h6 className="ordering-label">Ceremonial Photo & Video</h6>
+                </div>
+              </div>
+              <div 
+                className={`ordering-detail ${selectedService === 'Commercial Photo & Video' ? 'selected' : ''}`}
+                onClick={() => handleServiceClick('Commercial Photo & Video')}
+              >
+                <div className="ordering-mini-box">
+                  <div className="icon-circle">
+                    <BiParty className="ordering-icon" />
+                  </div>
+                  <h6 className="ordering-label">Commercial Photo & Video</h6>
+                </div>
+              </div>
+              <div 
+                className={`ordering-detail ${selectedService === 'Gen - Z Photo & Video' ? 'selected' : ''}`}
+                onClick={() => handleServiceClick('Gen - Z Photo & Video')}
+              >
+                <div className="ordering-mini-box">
+                  <div className="icon-circle">
+                    <PiBicycle className="ordering-icon" />
+                  </div>
+                  <h6 className="ordering-label">Gen - Z Photo & Video</h6>
+                </div>
+              </div>
+            </div>
         </Stepper.Step>
-        <Stepper.Step label="Final step" description="Get full access">
-          Step 3 content: Get full access
+        <Stepper.Step label="Final step" description="">
+        <div className="ord-box-cont">
+            <div className="ord-line"></div>
+             <div className="ord-content">
+              <h2>What's your target marketing?</h2>
+               <p>Please select the target marketing you have in mind.</p>
+            </div>
+              </div>
+            <div className="ord-det-cont">
+              {['Commercial', 'Ceremonial', 'Gen-Z', 'All'].map((svc) => (
+                <div 
+                  key={svc}
+                  className={`ord-det ${selSvc === svc ? 'sel' : ''}`}
+                  onClick={() => handleSvcClick(svc)}
+                >
+                  <div className="ord-mini-box">
+                    <div className={`bul-inner ${selSvc === svc ? 'sel' : ''}`}></div>
+                    <h6 className="ord-lbl">{svc}</h6>
+                  </div>
+                </div>
+              ))}
+            </div>
         </Stepper.Step>
         
         <Stepper.Completed>
-          Completed, click back button to get to previous step
+        <>
+        <div className="det">
+          <div className="success-icon">
+            <FaCheck />
+          </div>
+          <h3 className="txt">Your submission has been successful!</h3>
+          <p>Thanks! We have received your submission, and we'll be in touch really soon.</p>
+        </div>
+      </>
         </Stepper.Completed>
       </Stepper>
 
@@ -149,9 +241,6 @@ const Ordering1 = () => {
         <Button  style={{ backgroundColor: '#B8901A', color: '#fff' }}onClick={nextStep}>Next step</Button>
       </Group>
     </>
-
-
-           
           </div>
          
         </div>

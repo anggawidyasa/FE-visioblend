@@ -14,9 +14,6 @@ import Services4 from "../pages/Services4.jsx";
 import Services5 from "../pages/Services5.jsx";
 import Loyaltyreward from "../pages/LoyaltyReward.jsx";
 import Ordering1 from "../pages/ordering1.jsx";
-import Ordering2 from "../pages/ordering2.jsx";
-import Ordering3 from "../pages/ordering3.jsx";
-import Ordering4 from "../pages/ordering4.jsx";
 import Article from "../pages/Article.jsx";
 
 const router = createBrowserRouter([
@@ -79,18 +76,6 @@ const router = createBrowserRouter([
       {
         path: "/ordering1",
         element: <Ordering1 />,
-      },
-      {
-        path: "/ordering2",
-        element: <Ordering2 />,
-      },
-      {
-        path: "/ordering3",
-        element: <Ordering3 />,
-      },
-      {
-        path: "/ordering4",
-        element: <Ordering4 />,
       },
       {
         path: "/Article",

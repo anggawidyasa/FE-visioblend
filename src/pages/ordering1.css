@@ -142,6 +142,28 @@
   margin-right: 10px;
 }
 
-.icon {
-  margin-left: 80px;
+.det {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top :35px;
+}
+
+.success-icon {
+  background-color: #B8901A;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 43%;
+}
+
+.success-icon svg {
+  color: white;
+  font-size: 40px;
+ 
 }

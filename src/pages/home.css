@@ -21,6 +21,9 @@
   transition: transform 0.3s cubic-bezier(0.15, 0.75, 0.5, 1.25);
 }
 
+.box-home-title p {color: #fff;}
+.custom-title p {color: #fff;}
+
 .box-home {
   cursor: pointer;
 }
